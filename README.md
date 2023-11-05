@@ -15,8 +15,10 @@ npm install @paulsalamone/streak-counter
 ## Usage:
 ```javascript
 import {streakCounter} from '@paulsalamone/streak-counter'
+
 const today = new Date()
 const streak = streakCounter(localStorage, today)
+
 // streak returns an object:
 // {
 //    currentCount: 1,
